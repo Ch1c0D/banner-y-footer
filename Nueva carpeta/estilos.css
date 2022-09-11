@@ -1,0 +1,40 @@
+
+body{
+    font-family: 'Open sans';
+}
+header{
+    background-color: rgb(51, 149, 149);
+    text-align: center;
+    padding: 25px 0;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+background-color: azure;
+color: rgb(7, 5, 5);
+}
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: aquamarine;
+
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600;
+    margin: auto;
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
